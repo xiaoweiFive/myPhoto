@@ -23,8 +23,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
             endingLineNumber = "69"
-            landmarkName = "init(style:reuseIdentifier:)"
-            landmarkType = "7">
+            landmarkName = "WWAblumListCell"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -38,9 +38,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "init(frame:)"
-            landmarkType = "7">
+            endingLineNumber = "44">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -197,7 +195,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
             endingLineNumber = "89"
-            landmarkName = "getPhotoCell(_:ablumIndex:cellForItemAtIndexPath:)"
+            landmarkName = "setPickerSelectBlock(cell:photoAsset:ablumIndex:photoIndex:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -212,9 +210,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "122"
-            endingLineNumber = "122"
-            landmarkName = "setPickerSelectBlock(cell:photoAsset:ablumIndex:photoIndex:)"
-            landmarkType = "7">
+            endingLineNumber = "122">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -229,7 +225,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "92"
             endingLineNumber = "92"
-            landmarkName = "getPhotoCell(_:ablumIndex:cellForItemAtIndexPath:)"
+            landmarkName = "setPickerSelectBlock(cell:photoAsset:ablumIndex:photoIndex:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
