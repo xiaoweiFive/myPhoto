@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851CB13ED10AC3E2DB8ED2DF /* Pods_myPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5480562CB421AA2A634BFF60 /* Pods_myPhoto.framework */; };
+		FAA5FC4B2040051700CBFE95 /* WWImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC4A2040051700CBFE95 /* WWImagePickerController.swift */; };
+		FAA5FC50204005D100CBFE95 /* WWImagePickerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC4F204005D100CBFE95 /* WWImagePickerOptions.swift */; };
+		FAA5FC532040066000CBFE95 /* WWImagePickerBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC522040066000CBFE95 /* WWImagePickerBundle.swift */; };
+		FAA5FC5B204007D400CBFE95 /* WWImagePickerNotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC54204007D300CBFE95 /* WWImagePickerNotify.swift */; };
+		FAA5FC5C204007D400CBFE95 /* WWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC55204007D300CBFE95 /* WWNavigationController.swift */; };
+		FAA5FC5D204007D400CBFE95 /* WWBaseImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC56204007D300CBFE95 /* WWBaseImagePickerController.swift */; };
+		FAA5FC5E204007D400CBFE95 /* WWImagePikcerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC57204007D400CBFE95 /* WWImagePikcerDelegate.swift */; };
+		FAA5FC5F204007D400CBFE95 /* WWError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC58204007D400CBFE95 /* WWError.swift */; };
+		FAA5FC60204007D400CBFE95 /* WWPickerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC59204007D400CBFE95 /* WWPickerExtension.swift */; };
+		FAA5FC61204007D400CBFE95 /* WWPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC5A204007D400CBFE95 /* WWPickerManager.swift */; };
+		FAA5FC712040136600CBFE95 /* WWPhotoCellContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC642040136600CBFE95 /* WWPhotoCellContext.swift */; };
+		FAA5FC722040136600CBFE95 /* WWPhotoCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC652040136600CBFE95 /* WWPhotoCVCell.swift */; };
+		FAA5FC732040136600CBFE95 /* WWPhotoCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC662040136600CBFE95 /* WWPhotoCVCell.xib */; };
+		FAA5FC742040136600CBFE95 /* WWCameraCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC682040136600CBFE95 /* WWCameraCVCell.swift */; };
+		FAA5FC762040136600CBFE95 /* WWPickerCellContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC6A2040136600CBFE95 /* WWPickerCellContext.swift */; };
+		FAA5FC772040136600CBFE95 /* WWPickerCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC6B2040136600CBFE95 /* WWPickerCVCell.swift */; };
+		FAA5FC792040136600CBFE95 /* WWSelecteCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC6D2040136600CBFE95 /* WWSelecteCVCell.swift */; };
+		FAA5FC7B2040136600CBFE95 /* WWAblumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC6F2040136600CBFE95 /* WWAblumListCell.swift */; };
+		FAA5FC862040137D00CBFE95 /* WWAblumCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC7E2040137D00CBFE95 /* WWAblumCenterView.swift */; };
+		FAA5FC872040137D00CBFE95 /* WWAblumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC7F2040137D00CBFE95 /* WWAblumListView.swift */; };
+		FAA5FC882040137D00CBFE95 /* WWAblumListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC802040137D00CBFE95 /* WWAblumListView.xib */; };
+		FAA5FC8A2040137D00CBFE95 /* WWPhotoSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC822040137D00CBFE95 /* WWPhotoSelectView.swift */; };
+		FAA5FC8B2040137D00CBFE95 /* WWPhotoSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC832040137D00CBFE95 /* WWPhotoSelectView.xib */; };
+		FAA5FC8C2040137D00CBFE95 /* WWSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC842040137D00CBFE95 /* WWSelectView.swift */; };
+		FAA5FC952040138300CBFE95 /* WWPhotoBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC912040138300CBFE95 /* WWPhotoBrowserController.swift */; };
+		FAA5FCA820401F8700CBFE95 /* image_ablumSelectBackGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC9A20401F8700CBFE95 /* image_ablumSelectBackGround@2x.png */; };
+		FAA5FCA920401F8700CBFE95 /* image_ablumSelectBackGround@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC9B20401F8700CBFE95 /* image_ablumSelectBackGround@3x.png */; };
+		FAA5FCAA20401F8700CBFE95 /* image_buffer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC9C20401F8700CBFE95 /* image_buffer@2x.png */; };
+		FAA5FCAB20401F8700CBFE95 /* image_buffer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC9D20401F8700CBFE95 /* image_buffer@3x.png */; };
+		FAA5FCAC20401F8700CBFE95 /* image_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC9E20401F8700CBFE95 /* image_camera@2x.png */; };
+		FAA5FCAD20401F8700CBFE95 /* image_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC9F20401F8700CBFE95 /* image_camera@3x.png */; };
+		FAA5FCAE20401F8700CBFE95 /* image_photoAlbum@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FCA020401F8700CBFE95 /* image_photoAlbum@2x.png */; };
+		FAA5FCAF20401F8700CBFE95 /* image_photoAlbum@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FCA120401F8700CBFE95 /* image_photoAlbum@3x.png */; };
+		FAA5FCB020401F8700CBFE95 /* image_pickerArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FCA220401F8700CBFE95 /* image_pickerArrow@2x.png */; };
+		FAA5FCB120401F8700CBFE95 /* image_pickerArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FCA320401F8700CBFE95 /* image_pickerArrow@3x.png */; };
+		FAA5FCB220401F8700CBFE95 /* image_pickerDefault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FCA420401F8700CBFE95 /* image_pickerDefault@2x.png */; };
+		FAA5FCB320401F8700CBFE95 /* image_pickerDefault@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FCA520401F8700CBFE95 /* image_pickerDefault@3x.png */; };
+		FAA5FCB420401F8700CBFE95 /* image_selectPlaceholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FCA620401F8700CBFE95 /* image_selectPlaceholder@2x.png */; };
+		FAA5FCB520401F8700CBFE95 /* image_selectPlaceholder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FCA720401F8700CBFE95 /* image_selectPlaceholder@3x.png */; };
 		FAE2ED3F203FCFC5005B37B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2ED3E203FCFC5005B37B9 /* AppDelegate.swift */; };
 		FAE2ED41203FCFC5005B37B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2ED40203FCFC5005B37B9 /* ViewController.swift */; };
 		FAE2ED44203FCFC5005B37B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE2ED42203FCFC5005B37B9 /* Main.storyboard */; };
@@ -34,6 +74,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14B48AE2FB0311F36AE8E739 /* Pods-myPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPhoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPhoto/Pods-myPhoto.release.xcconfig"; sourceTree = "<group>"; };
+		5480562CB421AA2A634BFF60 /* Pods_myPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C89AAF1CE48D0004EA0A5C /* Pods-myPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPhoto/Pods-myPhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		FAA5FC4A2040051700CBFE95 /* WWImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWImagePickerController.swift; sourceTree = "<group>"; };
+		FAA5FC4F204005D100CBFE95 /* WWImagePickerOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWImagePickerOptions.swift; sourceTree = "<group>"; };
+		FAA5FC522040066000CBFE95 /* WWImagePickerBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWImagePickerBundle.swift; sourceTree = "<group>"; };
+		FAA5FC54204007D300CBFE95 /* WWImagePickerNotify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWImagePickerNotify.swift; sourceTree = "<group>"; };
+		FAA5FC55204007D300CBFE95 /* WWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWNavigationController.swift; sourceTree = "<group>"; };
+		FAA5FC56204007D300CBFE95 /* WWBaseImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWBaseImagePickerController.swift; sourceTree = "<group>"; };
+		FAA5FC57204007D400CBFE95 /* WWImagePikcerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWImagePikcerDelegate.swift; sourceTree = "<group>"; };
+		FAA5FC58204007D400CBFE95 /* WWError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWError.swift; sourceTree = "<group>"; };
+		FAA5FC59204007D400CBFE95 /* WWPickerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPickerExtension.swift; sourceTree = "<group>"; };
+		FAA5FC5A204007D400CBFE95 /* WWPickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPickerManager.swift; sourceTree = "<group>"; };
+		FAA5FC642040136600CBFE95 /* WWPhotoCellContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPhotoCellContext.swift; sourceTree = "<group>"; };
+		FAA5FC652040136600CBFE95 /* WWPhotoCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPhotoCVCell.swift; sourceTree = "<group>"; };
+		FAA5FC662040136600CBFE95 /* WWPhotoCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWPhotoCVCell.xib; sourceTree = "<group>"; };
+		FAA5FC682040136600CBFE95 /* WWCameraCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWCameraCVCell.swift; sourceTree = "<group>"; };
+		FAA5FC6A2040136600CBFE95 /* WWPickerCellContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPickerCellContext.swift; sourceTree = "<group>"; };
+		FAA5FC6B2040136600CBFE95 /* WWPickerCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPickerCVCell.swift; sourceTree = "<group>"; };
+		FAA5FC6D2040136600CBFE95 /* WWSelecteCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWSelecteCVCell.swift; sourceTree = "<group>"; };
+		FAA5FC6F2040136600CBFE95 /* WWAblumListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWAblumListCell.swift; sourceTree = "<group>"; };
+		FAA5FC7E2040137D00CBFE95 /* WWAblumCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWAblumCenterView.swift; sourceTree = "<group>"; };
+		FAA5FC7F2040137D00CBFE95 /* WWAblumListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWAblumListView.swift; sourceTree = "<group>"; };
+		FAA5FC802040137D00CBFE95 /* WWAblumListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWAblumListView.xib; sourceTree = "<group>"; };
+		FAA5FC822040137D00CBFE95 /* WWPhotoSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPhotoSelectView.swift; sourceTree = "<group>"; };
+		FAA5FC832040137D00CBFE95 /* WWPhotoSelectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWPhotoSelectView.xib; sourceTree = "<group>"; };
+		FAA5FC842040137D00CBFE95 /* WWSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWSelectView.swift; sourceTree = "<group>"; };
+		FAA5FC912040138300CBFE95 /* WWPhotoBrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPhotoBrowserController.swift; sourceTree = "<group>"; };
+		FAA5FC9A20401F8700CBFE95 /* image_ablumSelectBackGround@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_ablumSelectBackGround@2x.png"; sourceTree = "<group>"; };
+		FAA5FC9B20401F8700CBFE95 /* image_ablumSelectBackGround@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_ablumSelectBackGround@3x.png"; sourceTree = "<group>"; };
+		FAA5FC9C20401F8700CBFE95 /* image_buffer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_buffer@2x.png"; sourceTree = "<group>"; };
+		FAA5FC9D20401F8700CBFE95 /* image_buffer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_buffer@3x.png"; sourceTree = "<group>"; };
+		FAA5FC9E20401F8700CBFE95 /* image_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_camera@2x.png"; sourceTree = "<group>"; };
+		FAA5FC9F20401F8700CBFE95 /* image_camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_camera@3x.png"; sourceTree = "<group>"; };
+		FAA5FCA020401F8700CBFE95 /* image_photoAlbum@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_photoAlbum@2x.png"; sourceTree = "<group>"; };
+		FAA5FCA120401F8700CBFE95 /* image_photoAlbum@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_photoAlbum@3x.png"; sourceTree = "<group>"; };
+		FAA5FCA220401F8700CBFE95 /* image_pickerArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_pickerArrow@2x.png"; sourceTree = "<group>"; };
+		FAA5FCA320401F8700CBFE95 /* image_pickerArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_pickerArrow@3x.png"; sourceTree = "<group>"; };
+		FAA5FCA420401F8700CBFE95 /* image_pickerDefault@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_pickerDefault@2x.png"; sourceTree = "<group>"; };
+		FAA5FCA520401F8700CBFE95 /* image_pickerDefault@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_pickerDefault@3x.png"; sourceTree = "<group>"; };
+		FAA5FCA620401F8700CBFE95 /* image_selectPlaceholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_selectPlaceholder@2x.png"; sourceTree = "<group>"; };
+		FAA5FCA720401F8700CBFE95 /* image_selectPlaceholder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_selectPlaceholder@3x.png"; sourceTree = "<group>"; };
 		FAE2ED3B203FCFC5005B37B9 /* myPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE2ED3E203FCFC5005B37B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE2ED40203FCFC5005B37B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851CB13ED10AC3E2DB8ED2DF /* Pods_myPhoto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +157,124 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78A73F2AA33EEEF9A1811C53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0C89AAF1CE48D0004EA0A5C /* Pods-myPhoto.debug.xcconfig */,
+				14B48AE2FB0311F36AE8E739 /* Pods-myPhoto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C508164D1FDB9383AC298A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5480562CB421AA2A634BFF60 /* Pods_myPhoto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA5FC4C2040059F00CBFE95 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5FC9920401F8700CBFE95 /* Images */,
+				FAA5FC8E2040138300CBFE95 /* ViewControllers */,
+				FAA5FC7D2040137D00CBFE95 /* Views */,
+				FAA5FC622040136600CBFE95 /* Cells */,
+				FAA5FC512040063D00CBFE95 /* Others */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		FAA5FC512040063D00CBFE95 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5FC56204007D300CBFE95 /* WWBaseImagePickerController.swift */,
+				FAA5FC58204007D400CBFE95 /* WWError.swift */,
+				FAA5FC54204007D300CBFE95 /* WWImagePickerNotify.swift */,
+				FAA5FC57204007D400CBFE95 /* WWImagePikcerDelegate.swift */,
+				FAA5FC55204007D300CBFE95 /* WWNavigationController.swift */,
+				FAA5FC59204007D400CBFE95 /* WWPickerExtension.swift */,
+				FAA5FC5A204007D400CBFE95 /* WWPickerManager.swift */,
+				FAA5FC4F204005D100CBFE95 /* WWImagePickerOptions.swift */,
+				FAA5FC522040066000CBFE95 /* WWImagePickerBundle.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		FAA5FC622040136600CBFE95 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5FC632040136600CBFE95 /* photoBrowserCells */,
+				FAA5FC672040136600CBFE95 /* pickerCells */,
+				FAA5FC6F2040136600CBFE95 /* WWAblumListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FAA5FC632040136600CBFE95 /* photoBrowserCells */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5FC642040136600CBFE95 /* WWPhotoCellContext.swift */,
+				FAA5FC652040136600CBFE95 /* WWPhotoCVCell.swift */,
+				FAA5FC662040136600CBFE95 /* WWPhotoCVCell.xib */,
+			);
+			path = photoBrowserCells;
+			sourceTree = "<group>";
+		};
+		FAA5FC672040136600CBFE95 /* pickerCells */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5FC682040136600CBFE95 /* WWCameraCVCell.swift */,
+				FAA5FC6A2040136600CBFE95 /* WWPickerCellContext.swift */,
+				FAA5FC6B2040136600CBFE95 /* WWPickerCVCell.swift */,
+				FAA5FC6D2040136600CBFE95 /* WWSelecteCVCell.swift */,
+			);
+			path = pickerCells;
+			sourceTree = "<group>";
+		};
+		FAA5FC7D2040137D00CBFE95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5FC7E2040137D00CBFE95 /* WWAblumCenterView.swift */,
+				FAA5FC7F2040137D00CBFE95 /* WWAblumListView.swift */,
+				FAA5FC802040137D00CBFE95 /* WWAblumListView.xib */,
+				FAA5FC822040137D00CBFE95 /* WWPhotoSelectView.swift */,
+				FAA5FC832040137D00CBFE95 /* WWPhotoSelectView.xib */,
+				FAA5FC842040137D00CBFE95 /* WWSelectView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAA5FC8E2040138300CBFE95 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5FC912040138300CBFE95 /* WWPhotoBrowserController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAA5FC9920401F8700CBFE95 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5FC9A20401F8700CBFE95 /* image_ablumSelectBackGround@2x.png */,
+				FAA5FC9B20401F8700CBFE95 /* image_ablumSelectBackGround@3x.png */,
+				FAA5FC9C20401F8700CBFE95 /* image_buffer@2x.png */,
+				FAA5FC9D20401F8700CBFE95 /* image_buffer@3x.png */,
+				FAA5FC9E20401F8700CBFE95 /* image_camera@2x.png */,
+				FAA5FC9F20401F8700CBFE95 /* image_camera@3x.png */,
+				FAA5FCA020401F8700CBFE95 /* image_photoAlbum@2x.png */,
+				FAA5FCA120401F8700CBFE95 /* image_photoAlbum@3x.png */,
+				FAA5FCA220401F8700CBFE95 /* image_pickerArrow@2x.png */,
+				FAA5FCA320401F8700CBFE95 /* image_pickerArrow@3x.png */,
+				FAA5FCA420401F8700CBFE95 /* image_pickerDefault@2x.png */,
+				FAA5FCA520401F8700CBFE95 /* image_pickerDefault@3x.png */,
+				FAA5FCA620401F8700CBFE95 /* image_selectPlaceholder@2x.png */,
+				FAA5FCA720401F8700CBFE95 /* image_selectPlaceholder@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		FAE2ED32203FCFC5005B37B9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +282,8 @@
 				FAE2ED52203FCFC5005B37B9 /* myPhotoTests */,
 				FAE2ED5D203FCFC5005B37B9 /* myPhotoUITests */,
 				FAE2ED3C203FCFC5005B37B9 /* Products */,
+				78A73F2AA33EEEF9A1811C53 /* Pods */,
+				7C508164D1FDB9383AC298A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +302,8 @@
 			children = (
 				FAE2ED3E203FCFC5005B37B9 /* AppDelegate.swift */,
 				FAE2ED40203FCFC5005B37B9 /* ViewController.swift */,
+				FAA5FC4A2040051700CBFE95 /* WWImagePickerController.swift */,
+				FAA5FC4C2040059F00CBFE95 /* ImagePicker */,
 				FAE2ED42203FCFC5005B37B9 /* Main.storyboard */,
 				FAE2ED45203FCFC5005B37B9 /* Assets.xcassets */,
 				FAE2ED47203FCFC5005B37B9 /* LaunchScreen.storyboard */,
@@ -132,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAE2ED63203FCFC5005B37B9 /* Build configuration list for PBXNativeTarget "myPhoto" */;
 			buildPhases = (
+				10BCFB04850127672098D164 /* [CP] Check Pods Manifest.lock */,
 				FAE2ED37203FCFC5005B37B9 /* Sources */,
 				FAE2ED38203FCFC5005B37B9 /* Frameworks */,
 				FAE2ED39203FCFC5005B37B9 /* Resources */,
+				ADCF91A5C419831314E36560 /* [CP] Embed Pods Frameworks */,
+				97191EFE385B82946AA9CCC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +440,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA5FC8B2040137D00CBFE95 /* WWPhotoSelectView.xib in Resources */,
+				FAA5FCB020401F8700CBFE95 /* image_pickerArrow@2x.png in Resources */,
+				FAA5FCAD20401F8700CBFE95 /* image_camera@3x.png in Resources */,
+				FAA5FCB320401F8700CBFE95 /* image_pickerDefault@3x.png in Resources */,
+				FAA5FCAA20401F8700CBFE95 /* image_buffer@2x.png in Resources */,
+				FAA5FCAE20401F8700CBFE95 /* image_photoAlbum@2x.png in Resources */,
+				FAA5FCA820401F8700CBFE95 /* image_ablumSelectBackGround@2x.png in Resources */,
+				FAA5FCB520401F8700CBFE95 /* image_selectPlaceholder@3x.png in Resources */,
+				FAA5FCAC20401F8700CBFE95 /* image_camera@2x.png in Resources */,
+				FAA5FC732040136600CBFE95 /* WWPhotoCVCell.xib in Resources */,
+				FAA5FC882040137D00CBFE95 /* WWAblumListView.xib in Resources */,
+				FAA5FCA920401F8700CBFE95 /* image_ablumSelectBackGround@3x.png in Resources */,
 				FAE2ED49203FCFC5005B37B9 /* LaunchScreen.storyboard in Resources */,
+				FAA5FCAF20401F8700CBFE95 /* image_photoAlbum@3x.png in Resources */,
+				FAA5FCB220401F8700CBFE95 /* image_pickerDefault@2x.png in Resources */,
+				FAA5FCB420401F8700CBFE95 /* image_selectPlaceholder@2x.png in Resources */,
+				FAA5FCAB20401F8700CBFE95 /* image_buffer@3x.png in Resources */,
 				FAE2ED46203FCFC5005B37B9 /* Assets.xcassets in Resources */,
 				FAE2ED44203FCFC5005B37B9 /* Main.storyboard in Resources */,
+				FAA5FCB120401F8700CBFE95 /* image_pickerArrow@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +479,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10BCFB04850127672098D164 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myPhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97191EFE385B82946AA9CCC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myPhoto/Pods-myPhoto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADCF91A5C419831314E36560 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myPhoto/Pods-myPhoto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myPhoto/Pods-myPhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAE2ED37203FCFC5005B37B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA5FC50204005D100CBFE95 /* WWImagePickerOptions.swift in Sources */,
+				FAA5FC4B2040051700CBFE95 /* WWImagePickerController.swift in Sources */,
+				FAA5FC60204007D400CBFE95 /* WWPickerExtension.swift in Sources */,
 				FAE2ED41203FCFC5005B37B9 /* ViewController.swift in Sources */,
+				FAA5FC5E204007D400CBFE95 /* WWImagePikcerDelegate.swift in Sources */,
+				FAA5FC5B204007D400CBFE95 /* WWImagePickerNotify.swift in Sources */,
 				FAE2ED3F203FCFC5005B37B9 /* AppDelegate.swift in Sources */,
+				FAA5FC8C2040137D00CBFE95 /* WWSelectView.swift in Sources */,
+				FAA5FC712040136600CBFE95 /* WWPhotoCellContext.swift in Sources */,
+				FAA5FC722040136600CBFE95 /* WWPhotoCVCell.swift in Sources */,
+				FAA5FC532040066000CBFE95 /* WWImagePickerBundle.swift in Sources */,
+				FAA5FC862040137D00CBFE95 /* WWAblumCenterView.swift in Sources */,
+				FAA5FC61204007D400CBFE95 /* WWPickerManager.swift in Sources */,
+				FAA5FC772040136600CBFE95 /* WWPickerCVCell.swift in Sources */,
+				FAA5FC5F204007D400CBFE95 /* WWError.swift in Sources */,
+				FAA5FC792040136600CBFE95 /* WWSelecteCVCell.swift in Sources */,
+				FAA5FC952040138300CBFE95 /* WWPhotoBrowserController.swift in Sources */,
+				FAA5FC5C204007D400CBFE95 /* WWNavigationController.swift in Sources */,
+				FAA5FC8A2040137D00CBFE95 /* WWPhotoSelectView.swift in Sources */,
+				FAA5FC7B2040136600CBFE95 /* WWAblumListCell.swift in Sources */,
+				FAA5FC872040137D00CBFE95 /* WWAblumListView.swift in Sources */,
+				FAA5FC5D204007D400CBFE95 /* WWBaseImagePickerController.swift in Sources */,
+				FAA5FC762040136600CBFE95 /* WWPickerCellContext.swift in Sources */,
+				FAA5FC742040136600CBFE95 /* WWCameraCVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,12 +735,15 @@
 		};
 		FAE2ED64203FCFC5005B37B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C89AAF1CE48D0004EA0A5C /* Pods-myPhoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QH2QDQ247S;
 				INFOPLIST_FILE = myPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhangzhenwei.myPhoto;
+				PRODUCT_BUNDLE_IDENTIFIER = zhenwei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,12 +752,15 @@
 		};
 		FAE2ED65203FCFC5005B37B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B48AE2FB0311F36AE8E739 /* Pods-myPhoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QH2QDQ247S;
 				INFOPLIST_FILE = myPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhangzhenwei.myPhoto;
+				PRODUCT_BUNDLE_IDENTIFIER = zhenwei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

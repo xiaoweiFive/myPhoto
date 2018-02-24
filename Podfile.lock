@@ -1,0 +1,34 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - SDWebImage/GIF (4.2.3):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - SnapKit (4.0.0)
+  - Toast-Swift (3.0.1)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SDWebImage/GIF
+  - SnapKit
+  - Toast-Swift
+  - YYCache
+  - YYImage
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 4fc2856b25eb85491b2a3fb5b1fd74b9d3b67911
+
+COCOAPODS: 1.4.0
