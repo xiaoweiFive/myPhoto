@@ -18,10 +18,6 @@ internal class WWAblumListView: UIView,
     //选择的相册的index
     var ablumSelectIndex = 0
     private var pickerManager: WWPickerManager?
-    @IBOutlet weak var ablumTableView: UITableView!
-    @IBOutlet weak var maskBackView: UIView!
-    @IBOutlet weak var ablumTableHeight: NSLayoutConstraint!
-    
     var select: ((_ index: Int) -> Void)?
     var cancle: (() -> Void)?
     
@@ -34,27 +30,39 @@ internal class WWAblumListView: UIView,
         }
         UIView.animate(withDuration: 0.35, delay: 0.0, usingSpringWithDamping: 1.0, initialSpringVelocity: 1.0, options: .allowUserInteraction, animations: {
             if select {
-                self.ablumTableHeight.constant = self.frame.size.height - 51
                 self.maskBackView.alpha = 0.7
+                self.ablumTableView.frame = CGRect.init(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height - 51 - 64)
             }else {
-                self.ablumTableHeight.constant = 0
                 self.maskBackView.alpha = 0.0
+                self.ablumTableView.frame = CGRect.init(x: 0, y: 0, width: self.frame.size.width, height: 0)
             }
-            self.layoutIfNeeded()
         }) { (complete) in
             DispatchQueue.main.async(execute: {
                 self.ablumTableView.reloadData()
             })
         }
     }
-    
-    //MARK: Override
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        ablumTableView.register(UINib.init(nibName: WWAblumListCell.identfier, bundle: WWImagePickerBundle.bundle), forCellReuseIdentifier: WWAblumListCell.identfier)
+
+    lazy var maskBackView:UIView = {
+        let maskBackView =  UIView.init(frame: self.bounds)
         let tap = UITapGestureRecognizer.init(target: self, action: #selector(cancleAction))
         maskBackView.addGestureRecognizer(tap)
-    }
+        self.addSubview(maskBackView)
+        return maskBackView
+    }()
+    
+    
+    lazy var ablumTableView:UITableView = {
+        let tableView =  UITableView.init(frame:CGRect.init(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height - 51))
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.separatorStyle = .none
+        tableView.register(WWAblumListCell.self, forCellReuseIdentifier: WWAblumListCell.identfier)
+        self.addSubview(tableView)
+        return tableView;
+    }()
+    
+   
     
     //MARK: Initial Methods
     class func `init`(pickerManager: WWPickerManager) -> WWAblumListView {
@@ -67,6 +75,7 @@ internal class WWAblumListView: UIView,
     class func show(inView: UIView, pickerManager: WWPickerManager) -> WWAblumListView {
         let view = WWAblumListView.init(pickerManager: pickerManager)
         view.frame = inView.bounds
+
         inView.addSubview(view)
         view.isUserInteractionEnabled = false
         return view

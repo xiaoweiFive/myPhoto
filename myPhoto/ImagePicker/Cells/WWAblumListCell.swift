@@ -44,7 +44,6 @@ class WWAblumListCell: UITableViewCell,
         contentView.addSubview(ablumNameLabel)
         contentView.addSubview(ablumImageView)
         contentView.addSubview(selectImageView)
-        contentView.backgroundColor = UIColor.white
    
         ablumImageView.snp.makeConstraints({ (make) in
             make.left.top.equalTo(10)
@@ -52,8 +51,7 @@ class WWAblumListCell: UITableViewCell,
         })
         
         ablumNameLabel.snp.makeConstraints({ (make) in
-            make.left.top.equalTo(ablumImageView.snp.right).offset(17)
-            make.centerY.equalTo(self.snp.centerY)
+            make.left.equalTo(ablumImageView.snp.right).offset(17)
             make.right.equalTo(-10)
         })
         

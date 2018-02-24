@@ -20,7 +20,6 @@
 		FAA5FC61204007D400CBFE95 /* WWPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC5A204007D400CBFE95 /* WWPickerManager.swift */; };
 		FAA5FC712040136600CBFE95 /* WWPhotoCellContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC642040136600CBFE95 /* WWPhotoCellContext.swift */; };
 		FAA5FC722040136600CBFE95 /* WWPhotoCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC652040136600CBFE95 /* WWPhotoCVCell.swift */; };
-		FAA5FC732040136600CBFE95 /* WWPhotoCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC662040136600CBFE95 /* WWPhotoCVCell.xib */; };
 		FAA5FC742040136600CBFE95 /* WWCameraCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC682040136600CBFE95 /* WWCameraCVCell.swift */; };
 		FAA5FC762040136600CBFE95 /* WWPickerCellContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC6A2040136600CBFE95 /* WWPickerCellContext.swift */; };
 		FAA5FC772040136600CBFE95 /* WWPickerCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC6B2040136600CBFE95 /* WWPickerCVCell.swift */; };
@@ -28,9 +27,7 @@
 		FAA5FC7B2040136600CBFE95 /* WWAblumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC6F2040136600CBFE95 /* WWAblumListCell.swift */; };
 		FAA5FC862040137D00CBFE95 /* WWAblumCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC7E2040137D00CBFE95 /* WWAblumCenterView.swift */; };
 		FAA5FC872040137D00CBFE95 /* WWAblumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC7F2040137D00CBFE95 /* WWAblumListView.swift */; };
-		FAA5FC882040137D00CBFE95 /* WWAblumListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC802040137D00CBFE95 /* WWAblumListView.xib */; };
 		FAA5FC8A2040137D00CBFE95 /* WWPhotoSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC822040137D00CBFE95 /* WWPhotoSelectView.swift */; };
-		FAA5FC8B2040137D00CBFE95 /* WWPhotoSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC832040137D00CBFE95 /* WWPhotoSelectView.xib */; };
 		FAA5FC8C2040137D00CBFE95 /* WWSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC842040137D00CBFE95 /* WWSelectView.swift */; };
 		FAA5FC952040138300CBFE95 /* WWPhotoBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5FC912040138300CBFE95 /* WWPhotoBrowserController.swift */; };
 		FAA5FCA820401F8700CBFE95 /* image_ablumSelectBackGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5FC9A20401F8700CBFE95 /* image_ablumSelectBackGround@2x.png */; };
@@ -89,7 +86,6 @@
 		FAA5FC5A204007D400CBFE95 /* WWPickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPickerManager.swift; sourceTree = "<group>"; };
 		FAA5FC642040136600CBFE95 /* WWPhotoCellContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPhotoCellContext.swift; sourceTree = "<group>"; };
 		FAA5FC652040136600CBFE95 /* WWPhotoCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPhotoCVCell.swift; sourceTree = "<group>"; };
-		FAA5FC662040136600CBFE95 /* WWPhotoCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWPhotoCVCell.xib; sourceTree = "<group>"; };
 		FAA5FC682040136600CBFE95 /* WWCameraCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWCameraCVCell.swift; sourceTree = "<group>"; };
 		FAA5FC6A2040136600CBFE95 /* WWPickerCellContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPickerCellContext.swift; sourceTree = "<group>"; };
 		FAA5FC6B2040136600CBFE95 /* WWPickerCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPickerCVCell.swift; sourceTree = "<group>"; };
@@ -97,9 +93,7 @@
 		FAA5FC6F2040136600CBFE95 /* WWAblumListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWAblumListCell.swift; sourceTree = "<group>"; };
 		FAA5FC7E2040137D00CBFE95 /* WWAblumCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWAblumCenterView.swift; sourceTree = "<group>"; };
 		FAA5FC7F2040137D00CBFE95 /* WWAblumListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWAblumListView.swift; sourceTree = "<group>"; };
-		FAA5FC802040137D00CBFE95 /* WWAblumListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWAblumListView.xib; sourceTree = "<group>"; };
 		FAA5FC822040137D00CBFE95 /* WWPhotoSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPhotoSelectView.swift; sourceTree = "<group>"; };
-		FAA5FC832040137D00CBFE95 /* WWPhotoSelectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWPhotoSelectView.xib; sourceTree = "<group>"; };
 		FAA5FC842040137D00CBFE95 /* WWSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWSelectView.swift; sourceTree = "<group>"; };
 		FAA5FC912040138300CBFE95 /* WWPhotoBrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWPhotoBrowserController.swift; sourceTree = "<group>"; };
 		FAA5FC9A20401F8700CBFE95 /* image_ablumSelectBackGround@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_ablumSelectBackGround@2x.png"; sourceTree = "<group>"; };
@@ -217,7 +211,6 @@
 			children = (
 				FAA5FC642040136600CBFE95 /* WWPhotoCellContext.swift */,
 				FAA5FC652040136600CBFE95 /* WWPhotoCVCell.swift */,
-				FAA5FC662040136600CBFE95 /* WWPhotoCVCell.xib */,
 			);
 			path = photoBrowserCells;
 			sourceTree = "<group>";
@@ -238,9 +231,7 @@
 			children = (
 				FAA5FC7E2040137D00CBFE95 /* WWAblumCenterView.swift */,
 				FAA5FC7F2040137D00CBFE95 /* WWAblumListView.swift */,
-				FAA5FC802040137D00CBFE95 /* WWAblumListView.xib */,
 				FAA5FC822040137D00CBFE95 /* WWPhotoSelectView.swift */,
-				FAA5FC832040137D00CBFE95 /* WWPhotoSelectView.xib */,
 				FAA5FC842040137D00CBFE95 /* WWSelectView.swift */,
 			);
 			path = Views;
@@ -440,7 +431,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA5FC8B2040137D00CBFE95 /* WWPhotoSelectView.xib in Resources */,
 				FAA5FCB020401F8700CBFE95 /* image_pickerArrow@2x.png in Resources */,
 				FAA5FCAD20401F8700CBFE95 /* image_camera@3x.png in Resources */,
 				FAA5FCB320401F8700CBFE95 /* image_pickerDefault@3x.png in Resources */,
@@ -449,8 +439,6 @@
 				FAA5FCA820401F8700CBFE95 /* image_ablumSelectBackGround@2x.png in Resources */,
 				FAA5FCB520401F8700CBFE95 /* image_selectPlaceholder@3x.png in Resources */,
 				FAA5FCAC20401F8700CBFE95 /* image_camera@2x.png in Resources */,
-				FAA5FC732040136600CBFE95 /* WWPhotoCVCell.xib in Resources */,
-				FAA5FC882040137D00CBFE95 /* WWAblumListView.xib in Resources */,
 				FAA5FCA920401F8700CBFE95 /* image_ablumSelectBackGround@3x.png in Resources */,
 				FAE2ED49203FCFC5005B37B9 /* LaunchScreen.storyboard in Resources */,
 				FAA5FCAF20401F8700CBFE95 /* image_photoAlbum@3x.png in Resources */,

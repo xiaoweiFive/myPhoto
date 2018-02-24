@@ -17,59 +17,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "myPhoto/ImagePicker/Cells/WWAblumListCell.swift"
-            timestampString = "541142156.068562"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "WWAblumListCell"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "myPhoto/ImagePicker/Cells/pickerCells/WWCameraCVCell.swift"
-            timestampString = "541155079.21882"
+            timestampString = "541164245.369362"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "myPhoto/ImagePicker/ViewControllers/WWPhotoBrowserController.swift"
-            timestampString = "541155079.219112"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
-            landmarkName = "selectViewAction(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "myPhoto/ImagePicker/ViewControllers/WWPhotoBrowserController.swift"
-            timestampString = "541155079.219324"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
-            landmarkName = "selectViewAction(_:)"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "init(frame:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -80,11 +34,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "myPhoto/WWImagePickerController.swift"
-            timestampString = "541155079.219386"
+            timestampString = "541164245.370014"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "224"
-            endingLineNumber = "224"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
             landmarkName = "imageCamereShow()"
             landmarkType = "7">
          </BreakpointContent>
@@ -95,28 +49,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "myPhoto/WWImagePickerController.swift"
-            timestampString = "541155079.219453"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "179"
-            endingLineNumber = "179"
-            landmarkName = "addCenterView()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "myPhoto/ImagePicker/Cells/pickerCells/WWPickerCellContext.swift"
-            timestampString = "541155079.219516"
+            timestampString = "541164245.370416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "setPickerSelectBlock(cell:photoAsset:ablumIndex:photoIndex:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -158,7 +96,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "myPhoto/WWImagePickerController.swift"
-            timestampString = "541155079.220479"
+            timestampString = "541164245.370729"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "123"
@@ -174,7 +112,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "myPhoto/WWImagePickerController.swift"
-            timestampString = "541155079.220675"
+            timestampString = "541164245.371281"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "126"
@@ -190,41 +128,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "myPhoto/ImagePicker/Cells/pickerCells/WWPickerCellContext.swift"
-            timestampString = "541155079.220742"
+            timestampString = "541164245.371634"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "setPickerSelectBlock(cell:photoAsset:ablumIndex:photoIndex:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "myPhoto/ImagePicker/Cells/pickerCells/WWPickerCellContext.swift"
-            timestampString = "541155079.220787"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "myPhoto/ImagePicker/Cells/pickerCells/WWPickerCellContext.swift"
-            timestampString = "541155079.22083"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "setPickerSelectBlock(cell:photoAsset:ablumIndex:photoIndex:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -236,12 +144,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "myPhoto/WWImagePickerController.swift"
-            timestampString = "541155079.220873"
+            timestampString = "541164245.37169"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "217"
-            endingLineNumber = "217"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
             landmarkName = "addSelectView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "myPhoto/WWImagePickerController.swift"
+            timestampString = "541164245.3720061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "addAblumList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "myPhoto/WWImagePickerController.swift"
+            timestampString = "541164245.372265"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "addAblumList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "myPhoto/ImagePicker/Views/WWAblumListView.swift"
+            timestampString = "541164245.372522"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

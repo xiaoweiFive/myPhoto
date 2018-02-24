@@ -12,11 +12,10 @@
 import UIKit
 
 class WWPhotoCVCell: UICollectionViewCell,
-                      WWCellIdentfier,
-                      UIScrollViewDelegate  {
+    WWCellIdentfier,
+UIScrollViewDelegate  {
     
-    @IBOutlet weak var photoSrcollView: UIScrollView!
-    @IBOutlet weak var photoImageView: UIImageView!
+
     @IBOutlet weak var imageWidth: NSLayoutConstraint!
     @IBOutlet weak var imageHeight: NSLayoutConstraint!
     @IBOutlet weak var imageTop: NSLayoutConstraint!
@@ -24,12 +23,35 @@ class WWPhotoCVCell: UICollectionViewCell,
     @IBOutlet weak var imageBottom: NSLayoutConstraint!
     @IBOutlet weak var imageLeft: NSLayoutConstraint!
     
+    var photoSrcollView:UIScrollView
+    var photoImageView:UIImageView
+    
     deinit {
         NotificationCenter.default.removeObserver(self)
     }
     
-    override func awakeFromNib() {
+    override init(frame:CGRect){
+        
+        photoSrcollView = UIScrollView()
+        photoImageView = UIImageView()
+        super.init(frame: frame)
+        contentView.addSubview(photoSrcollView)
+        contentView.addSubview(photoImageView)
+        
+        photoSrcollView.snp.makeConstraints({ (make) in
+            make.center.equalTo(contentView.snp.center)
+            make.width.height.equalTo(40)
+        })
+        photoImageView.snp.makeConstraints({ (make) in
+            make.center.equalTo(contentView.snp.center)
+            make.width.height.equalTo(40)
+        })
+        
         NotificationCenter.default.addObserver(self, selector: #selector(zoomChage), name: WWImagePickerNotify.selectPickerZoom, object: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     @objc private func zoomChage() {

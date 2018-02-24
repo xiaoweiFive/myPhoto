@@ -169,8 +169,8 @@ public class WWImagePickerController: UIViewController {
         cellContext   = WWPickerCellContext.init(pickerManager: pickerManager!)
         cellContext?.register(collectionView: photoAblumCV)
         addSelectView()
-        addCenterView()
         addAblumList()
+        addCenterView()
         photoAblumCV.reloadData()
     }
     
@@ -179,7 +179,6 @@ public class WWImagePickerController: UIViewController {
             self?.ablumList?.dropAblbumList(select)
         })
         navigationItem.titleView = centerView
-        centerView?.isUserInteractionEnabled = false
         centerView!.centerTitle  = pickerManager?.getAblumTitle(ablumSelectIndex)
     }
     
